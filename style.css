@@ -1,7 +1,26 @@
-a {
-    color: #000000;
+body {
+    /* Selecteur body pour appliquer un style par défaut*/
+    font-family: "Manrope", sans-serif;
+    font-size: 1em;
 }
 
-.remarquable {
-    color: #A5B4FC;
+a {
+    color: #000000;
+    text-decoration: none;
 }
+
+em {
+    color: #A5B4FC;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #A5B4FC;
+    font-family:"Montserrat", sans-serif;
+}
+
+p {
+    font-size: 1.1em;
+}
+
