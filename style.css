@@ -30,7 +30,7 @@ p, li {
     color: #F9F8FF;
 }
 
-.en-tete, .pied-de-page {
+header, footer {
     background-color: white;
 } 
 
