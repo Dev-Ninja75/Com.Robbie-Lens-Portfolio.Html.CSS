@@ -43,5 +43,17 @@ p, li {
 .introduction {
     border-right: 1px #8e86b5 solid;
     border-bottom:1px #8e86b5 solid;
+}
 
+a:hover {
+    text-decoration: underline;
+}
+
+.click-to-action:hover {
+    background: linear-gradient(#696484, #8788BA);
+    text-decoration: none;
+}
+
+.icon-links:hover {
+    opacity: 0.5;
 }
