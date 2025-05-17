@@ -99,7 +99,13 @@ nav a {
     margin-bottom: 80px;
 }
 
-
+.welcome-photos div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
 
 a:hover {
     text-decoration: underline;
