@@ -42,6 +42,17 @@ section {
     padding: 80px;
 }
 
+header,footer,nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    margin-left: 30px;
+}
+
 .click-to-action {
     color: white;
     background: linear-gradient(#8E86B5, #ACAEED);
