@@ -79,6 +79,8 @@ nav a {
     margin: auto;
 }
 
+/* flexbox */
+
 .welcome-intro {
     display: flex;
     flex-direction: row;
@@ -109,8 +111,6 @@ nav a {
 
 .portfolio-sec-photos {
     background-color: white;
-    text-align: center;
-    margin-bottom: 80px;
 }
 
 .portfolio-sec-photos h2 {
@@ -119,7 +119,22 @@ nav a {
     margin-bottom: 80px;
 }
 
+/* grid  */
 
+.grid-paysages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px 350px 350fr;
+    gap: 15px;
+    
+}
+
+.grid-portraits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px 350px;
+    gap: 15px;
+}
 
 a:hover {
     text-decoration: underline;
