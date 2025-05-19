@@ -54,6 +54,7 @@ nav a {
 }
 
 .click-to-action {
+    display: inline-block;
     color: white;
     background: linear-gradient(#8E86B5, #ACAEED);
     border-radius: 50px;
@@ -152,8 +153,6 @@ nav a {
 .link-container-photo {
     position: relative;
 }
-
-
 
 /* hover  */
 
