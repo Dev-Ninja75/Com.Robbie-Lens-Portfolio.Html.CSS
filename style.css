@@ -147,6 +147,16 @@ nav a {
     object-fit: cover;
 }
 
+/* display */
+
+.link-container-photo {
+    position: relative;
+}
+
+
+
+/* hover  */
+
 a:hover {
     text-decoration: underline;
 }
