@@ -21,3 +21,29 @@
     width: 50%;
     margin: auto;
 }
+
+table {
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+td,
+th {
+    border: 1px solid #A5B4FC;
+    padding: 15px;
+}
+
+td {
+    padding: 80px;
+}
+
+h2 {
+    margin-bottom: 80px;
+}
+
+h1, h2 {
+    text-align: center;
+}
