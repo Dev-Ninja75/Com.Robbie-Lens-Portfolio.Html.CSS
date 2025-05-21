@@ -50,3 +50,33 @@ form {
   margin: auto;
   color: white;
 }
+
+.form-name-email {
+    display: flex;
+    flex-direction: row;
+    gap : 20px;
+}
+
+.form-column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
