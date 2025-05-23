@@ -80,3 +80,20 @@ input[type='submit'] {
     margin: auto;
     margin-top: 30px;
 }
+
+@media screen and (max-width: 996px) {
+    .welcome-intro {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome-photos div {
+        flex-direction: column;
+    }
+
+    .form-name-email {
+        flex-direction: column;
+        gap: 0;
+    }
+}
