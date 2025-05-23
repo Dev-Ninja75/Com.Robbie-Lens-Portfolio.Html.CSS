@@ -96,4 +96,25 @@ input[type='submit'] {
         flex-direction: column;
         gap: 0;
     }
+
+    .welcome-photos {
+        padding: 20px;
+    }
+
+    .contact-section {
+        padding: 50px 20px;
+    }
+
+    .welcome-intro div {
+        padding-right: 0;
+        text-align: center;
+        order: 2;
+    }
+
+    .welcome-intro img {
+        margin-bottom: 20px;
+        width: 100%;
+        order: 1;
+    }
+
 }
