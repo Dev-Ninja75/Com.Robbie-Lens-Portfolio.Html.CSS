@@ -7,6 +7,10 @@
     margin-bottom: 80px;
 }
 
+.portraits {
+    margin-top: 80px;
+}
+
 .grid-paysages {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
