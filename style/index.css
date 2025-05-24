@@ -1,6 +1,6 @@
 .welcome-photos {
     background-color: white;
-    margin-bottom: 80px;
+    padding: 80px;
 }
 
 .welcome-photos h2 {
@@ -12,16 +12,16 @@
 .welcome-photos div {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     gap: 15px;
+    justify-content: center;
     margin-bottom: 15px;
 }
 
 .welcome-intro {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     max-width: 1000px;
+    align-items: flex-start;
     margin: auto;
 }
 
@@ -46,7 +46,7 @@
 form {
   display: flex;
   flex-direction: column;
-  width: 1000px;
+  max-width: 1000px;
   margin: auto;
   color: white;
 }
@@ -87,24 +87,7 @@ input[type='submit'] {
         justify-content: center;
         align-items: center;
     }
-
-    .welcome-photos div {
-        flex-direction: column;
-    }
-
-    .form-name-email {
-        flex-direction: column;
-        gap: 0;
-    }
-
-    .welcome-photos {
-        padding: 20px;
-    }
-
-    .contact-section {
-        padding: 50px 20px;
-    }
-
+    
     .welcome-intro div {
         padding-right: 0;
         text-align: center;
@@ -116,5 +99,21 @@ input[type='submit'] {
         width: 100%;
         order: 1;
     }
+    
+    .welcome-photos {
+        padding: 20px;
+    }
 
+    .welcome-photos div {
+        flex-direction: column;
+    }
+
+    .contact-section {
+        padding: 50px 20px;
+    }
+    
+    .form-name-email {
+        flex-direction: column;
+        gap: 0;
+    }
 }
