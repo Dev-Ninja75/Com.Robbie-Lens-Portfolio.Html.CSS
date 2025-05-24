@@ -66,4 +66,9 @@
         grid-template-columns: 1fr;
         gap: 15px;
     }
+
+    h1, 
+    h2 {
+        text-align: center;
+    }
 }
